@@ -1,5 +1,7 @@
 // JavaScript Document
-function loadCSS() {
+
+
+function showImg() {
   console.warn("BLABLA");
   var lnk = document.createElement('link');
   lnk.setAttribute('type', "text/css" );
@@ -7,11 +9,6 @@ function loadCSS() {
   lnk.setAttribute('href', "https://cdn.jsdelivr.net/gh/gabrieldouurado/script_proepi/style_v2.css" );
   
   document.getElementsByTagName("head").item(0).appendChild(lnk);
-  
-}
-
-function showImg() {
-  loadCSS()
 // Get the modal
 var modal = document.getElementById('myModal');
 
