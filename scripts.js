@@ -1,6 +1,16 @@
 // JavaScript Document
+function loadCSS(url) {
+  var lnk = document.createElement('link');
+  lnk.setAttribute('type', "text/css" );
+  lnk.setAttribute('rel', "stylesheet" );
+  lnk.setAttribute('href', "https://cdn.jsdelivr.net/gh/gabrieldouurado/script_proepi/style_v2.css" );
+  
+  document.getElementsByTagName("head").item(0).appendChild(lnk);
+  
+}
+
 function showImg() {
-  loadCSS();
+  loadCSS(URL)
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -29,12 +39,6 @@ span.onclick = function() {
 }
 }
 
-function loadCSS(url) {
-  var lnk = document.createElement('link');
-  lnk.setAttribute('type', "text/css" );
-  lnk.setAttribute('rel', "stylesheet" );
-  lnk.setAttribute('href', "https://cdn.jsdelivr.net/gh/gabrieldouurado/script_proepi/style_v2.css" );
-  
-  document.getElementsByTagName("head").item(0).appendChild(lnk);
-  
-}
+
+
+ 
