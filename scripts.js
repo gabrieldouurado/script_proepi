@@ -1,5 +1,5 @@
 // JavaScript Document
-function loadCSS(url) {
+function loadCSS() {
   var lnk = document.createElement('link');
   lnk.setAttribute('type', "text/css" );
   lnk.setAttribute('rel', "stylesheet" );
@@ -10,7 +10,7 @@ function loadCSS(url) {
 }
 
 function showImg() {
-  loadCSS(URL)
+  loadCSS()
 // Get the modal
 var modal = document.getElementById('myModal');
 
