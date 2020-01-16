@@ -1,5 +1,6 @@
 // JavaScript Document
 function showImg() {
+  loadCSS();
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -37,5 +38,3 @@ function loadCSS(url) {
   document.getElementsByTagName("head").item(0).appendChild(lnk);
   
 }
-
- loadCSS(URL)
