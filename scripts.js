@@ -1,5 +1,6 @@
 // JavaScript Document
 function loadCSS() {
+  console.warn("BLABLA");
   var lnk = document.createElement('link');
   lnk.setAttribute('type', "text/css" );
   lnk.setAttribute('rel', "stylesheet" );
