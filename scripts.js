@@ -1,14 +1,5 @@
 // JavaScript Document
-
-
 function showImg() {
-  console.warn("BLABLA");
-  var lnk = document.createElement('link');
-  lnk.setAttribute('type', "text/css" );
-  lnk.setAttribute('rel', "stylesheet" );
-  lnk.setAttribute('href', "https://cdn.jsdelivr.net/gh/gabrieldouurado/script_proepi/style_v2.css" );
-  
-  document.getElementsByTagName("head").item(0).appendChild(lnk);
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -37,6 +28,16 @@ span.onclick = function() {
 }
 }
 
+function loadCSS(url) {
+  var lnk = document.createElement('link');
+  lnk.setAttribute('type', "text/css" );
+  lnk.setAttribute('rel', "stylesheet" );
+  lnk.setAttribute('href', "https://cdn.jsdelivr.net/gh/gabrieldouurado/script_proepi/style_v2.css" );
+  
+  document.getElementsByTagName("head").item(0).appendChild(lnk);
+  
+}
+ loadCSS(URL)
 
 
  
