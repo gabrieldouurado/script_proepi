@@ -40,13 +40,24 @@ function loadCSS(url) {
 
 function loadDIV (){
   var Docu = document.body;
+
   var InsertDIV = document.createElement('div');
   InsertDIV.setAttribute('id', "myModal");
   InsertDIV.setAttribute('class', "modal");
-  var content = document.createTextNode("<span class='close' onclick='document.getElementById('myModal').style.display='none''>&times;</span>\n"); 
-  var content = document.createTextNode("<img class='modal-content' id='img01'>\n");
-  InsertDIV.appendChild(content);
+
+  var InsertSPAN = document.createElement('span');
+  InsertSPAN.setAttribute('class', "close");
+  InsertSPAN.setAttribute('onclick', "document.getElementById('myModal').style.display='none'");
+  var contSPAN = document.createTextNode("&times;");
+  InsertSPAN.appendChild(contSPAN);
+
+  var InsertIMG = document.createElement('img');
+  InsertIMG.setAttribute('id', "modal-content");
+  InsertIMG.setAttribute('class', "img01");
+
   Docu.appendChild(InsertDIV);
+  InsertDIV.appendChild(InsertSPAN);
+  InsertDIV.appendChild(InsertIMG);
 }
 
  loadDIV()
