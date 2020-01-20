@@ -37,6 +37,19 @@ function loadCSS(url) {
   document.getElementsByTagName("head").item(0).appendChild(lnk);
   
 }
+
+function loadDIV (){
+  var Docu = document.body;
+  var InsertDIV = document.createElement('div');
+  InsertDIV.setAttribute('id', "myModal");
+  InsertDIV.setAttribute('class', "modal");
+  var content = document.createTextNode("<span class='close' onclick='document.getElementById('myModal').style.display='none''>&times;</span>\n"); 
+  var content = document.createTextNode("<img class='modal-content' id='img01'>\n");
+  InsertDIV.appendChild(content);
+  Docu.appendChild(InsertDIV);
+}
+
+ loadDIV()
  loadCSS(URL)
 
 
