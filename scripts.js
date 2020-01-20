@@ -47,7 +47,7 @@ function loadDIV(){
 
   var InsertSPAN = document.createElement('span');
   InsertSPAN.setAttribute('class', "close");
-  InsertSPAN.setAttribute('onclick', "document.getElementById('myModal').style.display='none'");
+  InsertSPAN.setAttribute('onclick', "document.getElementById("myModal").style.display="none"");
   var contSPAN = document.createTextNode("&times;");
   InsertSPAN.appendChild(contSPAN);
 
