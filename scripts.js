@@ -38,7 +38,7 @@ function loadCSS(url) {
   
 }
 
-function loadDIV (){
+function loadDIV(){
   var Docu = document.body;
 
   var InsertDIV = document.createElement('div');
