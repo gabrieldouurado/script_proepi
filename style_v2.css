@@ -32,10 +32,21 @@ table, tr, td {
 
 /* Modal Content (Image) */
 .modal-content {
-  margin: auto;
-  display: block;
-  padding: 10%;
-  max-width: 80%;
+margin-left: 20%; */
+    /* min-height: 10em; */
+    /* display: table-cell; */
+    vertical-align: middle;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /* margin: auto; */
+    /* display: block; */
+    /* padding: 17%; */
+    /* max-width: 80%; */
+    width: 761px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
