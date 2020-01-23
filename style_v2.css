@@ -361,6 +361,15 @@ table.tbdestaque  tr td {
   padding: 20px 0px; 
 }
 
+.tb_artt_exercitando {
+  border-radius: 0px 50px;
+/*  border: aqua solid 20px;*/
+  border-top: solid 20px #10862B  !important;
+  border-bottom: solid 10px #10862B !important;
+  
+background-color: #FFFfff;
+padding: 20px 0px; 
+}
 
 .tb_artt_ficaadica {
     border-radius: 0px 50px;
@@ -371,6 +380,8 @@ table.tbdestaque  tr td {
   background-color: #FAEFFB;
   padding: 20px 0px; 
 }
+
+
 
 p.txtPararefletir {
     text-align: justify;
