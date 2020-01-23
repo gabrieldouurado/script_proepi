@@ -22,7 +22,7 @@ table, tr, td {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: -40%;
   width: 80%; /* Full width */
   height: 80%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
