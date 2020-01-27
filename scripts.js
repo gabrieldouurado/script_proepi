@@ -29,13 +29,13 @@ function showImg() {
 var modal = document.getElementById('myModal_artt');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = $('.myImg_artt');
+var img = $('.myImg');
 var modalImg = $("#img01_artt");
 //var captionText = document.getElementById("caption");
 
 //console.warn(img)
 
-$('.myImg_artt').click(function(){
+$('.myImg').click(function(){
 
     modal.style.display = "block";
     var newSrc = this.src;
